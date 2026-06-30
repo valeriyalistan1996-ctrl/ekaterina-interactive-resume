@@ -29,6 +29,7 @@ const i18n = {
     loadingName: "Loading...",
     loadingTitle: "Connecting data",
     contact: "Contact",
+    positioning: "HRD connecting business needs with people systems, sales teams and operational growth.",
     profile: "Profile",
     location: "Location",
     statusLive: "",
@@ -59,13 +60,14 @@ const i18n = {
     loadingName: "Загрузка...",
     loadingTitle: "Подключаем данные",
     contact: "Связаться",
+    positioning: "HRD как связующее звено между задачами бизнеса, HR-системами, продажами и операционным ростом.",
     profile: "Профиль",
     location: "Локация",
     statusLive: "",
     statusDemo: "",
     statusMissing: "",
     statusError: "",
-    coreSignals: ["HRBP-модель", "Recruiting ATS", "HR-аналитика", "L&D-система"],
+    coreSignals: ["HRBP-модель", "Рекрутинговая ATS", "HR-аналитика", "L&D-система"],
     tabs: {
       skills: "Навыки",
       experience: "Опыт",
@@ -89,13 +91,14 @@ const i18n = {
     loadingName: "Yuklanmoqda...",
     loadingTitle: "Ma'lumotlar ulanmoqda",
     contact: "Bog'lanish",
+    positioning: "HRD biznes ehtiyojlari, HR tizimlari, sotuv jamoalari va operatsion o'sishni bog'laydi.",
     profile: "Profil",
     location: "Joylashuv",
     statusLive: "",
     statusDemo: "",
     statusMissing: "",
     statusError: "",
-    coreSignals: ["HRBP modeli", "Recruiting ATS", "HR analitika", "L&D tizimi"],
+    coreSignals: ["HRBP modeli", "Rekruting ATS", "HR analitika", "L&D tizimi"],
     tabs: {
       skills: "Ko'nikmalar",
       experience: "Tajriba",
@@ -116,10 +119,10 @@ const i18n = {
 
 const translations = {
   ru: {
-    title: "HR-директор | Automotive, Retail, IT и Manufacturing",
+    title: "HR-директор | Автомобильный бизнес, ритейл, IT и производство",
     location: "Ташкент, Узбекистан",
     summary:
-      "HR- и операционный лидер с опытом 17+ лет в ролях HRD, CEO, COO, VP, Executive Assistant, Logistics and Procurement. Сильная экспертиза в HR business partnering, recruiting ATS, HR-аналитике, корпоративной культуре, внутренних коммуникациях, обучении, адаптации и автоматизации HR-процессов.",
+      "HR- и операционный лидер с опытом 17+ лет в ролях HRD, CEO, COO, VP, executive assistant, руководителя логистики и закупок. Сильная экспертиза в HR-бизнес-партнерстве, рекрутинговой ATS, HR-аналитике, корпоративной культуре, внутренних коммуникациях, обучении, адаптации и автоматизации HR-процессов.",
     skills: {
       "Team Management": "Управление командами",
       Negotiation: "Переговоры",
@@ -130,15 +133,15 @@ const translations = {
       "Operations Management": "Операционное управление",
       "Performance Evaluation": "Оценка эффективности",
       "Business Transformation": "Бизнес-трансформация",
-      "Lean Production": "Lean production",
+      "Lean Production": "Бережливое производство",
       "Process Automation": "Автоматизация процессов",
       "Crisis Management": "Кризисное управление",
       "Contracts Management": "Управление договорами",
       "Sales & Marketing": "Продажи и маркетинг",
       Startups: "Стартапы",
       "SWOT Analysis": "SWOT-анализ",
-      "HR Business Partnering": "HR Business Partnering",
-      "Recruiting ATS Implementation": "Внедрение Recruiting ATS",
+      "HR Business Partnering": "HR-бизнес-партнерство",
+      "Recruiting ATS Implementation": "Внедрение рекрутинговой ATS",
       "HR Analytics": "HR-аналитика",
       "Corporate Culture": "Корпоративная культура",
       "Internal Communications": "Внутренние коммуникации",
@@ -162,7 +165,7 @@ const translations = {
         "Восстановление сотрудничества с международными поставщиками, усиление контроля качества и снижение закупочных затрат за счет планирования."
       ],
       "HR Strategy and People Operations": [
-        "HR-стратегия и people operations",
+        "HR-стратегия и управление персоналом",
         "Выстраивание HR-направления вокруг управления командами, HR-стратегии, обучения, переговоров и связи с бизнес-задачами."
       ],
       "HR Business Partner Model": [
@@ -179,21 +182,17 @@ const translations = {
       ]
     },
     experience: {
-      "Human Resource Director|ADM GLOBAL": [
-        "Директор по персоналу",
-        "Выступает как HR Business Partner для руководителей продаж и операционных направлений, переводя потребности бизнеса в HR-решения. Ведет обучение команды, внедрение recruiting ATS, HR-аналитику по персоналу, клиентам и рынкам, корпоративную культуру и коммуникации, автоматизацию кадрового администрирования, обучение и развитие, аттестацию, индивидуальные планы развития и систему адаптации."
-      ],
-      "Human Resources Director|ADM GLOBAL": [
-        "Директор по персоналу",
-        "Управляла HR-направлением и people-процессами с фокусом на HRD, коммуникации, подбор, отношения с сотрудниками и операционное выравнивание."
+      "Human Resources Director / HR Business Partner|ADM GLOBAL": [
+        "Директор по персоналу / HR Business Partner",
+        "Единая роль в ADM GLOBAL: выступает как HR Business Partner для руководителей продаж и операционных направлений, переводя потребности бизнеса в HR-решения. В зоне ответственности: обучение команды, закрытие ключевой локации, внедрение рекрутинговой ATS, HR-аналитика по персоналу, клиентам и рынкам, корпоративная культура и коммуникации, кодекс этики, ПВТР, внутренние ивенты, кадровое администрирование, автоматизация административных процессов, создание направления обучения и развития, внешнее и внутреннее обучение, аттестация, индивидуальные планы развития и система адаптации."
       ],
       "Human Resource Director|Symbionty Kutushova": [
         "Директор по персоналу",
-        "Отвечала за HR-лидерство, координацию команды и HR-стратегию в удаленном full-time формате."
+        "Отвечала за HR-лидерство, координацию команды и HR-стратегию в удаленном формате полной занятости."
       ],
       "Director Human Resources Division|An Company Working in Retail Project": [
         "Руководитель HR-дивизиона",
-        "Возглавляла HR-дивизион retail-проекта, совмещая HR-управление, операционную поддержку и организационное развитие."
+        "Возглавляла HR-дивизион ритейл-проекта, совмещая HR-управление, операционную поддержку и организационное развитие."
       ],
       "Project Head|Insulation, Heat Protection, Energy Saving Company": [
         "Руководитель проекта",
@@ -201,7 +200,7 @@ const translations = {
       ],
       "Operational Director|TPP Partner, PTPA": [
         "Операционный директор",
-        "Курировала операционные процессы и поддерживала управление в рамках краткосрочного leadership assignment."
+        "Курировала операционные процессы и поддерживала управление в рамках краткосрочного управленческого проекта."
       ],
       "CEO|Flagman Production, LLC": [
         "CEO",
@@ -216,6 +215,10 @@ const translations = {
         "Управляла закупками и логистикой автокомпонентов для производителей и дилерских сетей. Снизила закупочную стоимость на 20%, увеличила производственную мощность на 20%, улучшила складское управление и логистику, внедрила ISO 9000:2001 в двух департаментах."
       ]
     },
+    companies: {
+      "An Company Working in Retail Project": "Ритейл-проект",
+      "Insulation, Heat Protection, Energy Saving Company": "Компания в сфере теплоизоляции и энергосбережения"
+    },
     education: {
       "Bachelor's Degree, English and German Teaching": "Бакалавриат, преподавание английского и немецкого языков",
       "Level 7 Master of Human Resources Management, Strategic Human Resources Management": "Level 7 Master of Human Resources Management, Strategic Human Resources Management",
@@ -223,10 +226,10 @@ const translations = {
     }
   },
   uz: {
-    title: "HR direktori | Automotive, Retail, IT va Manufacturing",
+    title: "HR direktori | Avtomobil biznesi, retail, IT va ishlab chiqarish",
     location: "Toshkent, O'zbekiston",
     summary:
-      "HR va operatsion yo'nalishlarda 17+ yillik tajribaga ega rahbar. Asosiy kuchli tomonlari: HR business partnering, recruiting ATS, HR analitika, korporativ madaniyat, ichki kommunikatsiyalar, o'qitish, adaptatsiya va HR jarayonlarini avtomatlashtirish.",
+      "HR va operatsion yo'nalishlarda 17+ yillik tajribaga ega rahbar. Asosiy kuchli tomonlari: HR biznes hamkorligi, rekruting ATS, HR analitika, korporativ madaniyat, ichki kommunikatsiyalar, o'qitish, adaptatsiya va HR jarayonlarini avtomatlashtirish.",
     skills: {
       "Team Management": "Jamoani boshqarish",
       Negotiation: "Muzokaralar",
@@ -237,14 +240,14 @@ const translations = {
       "Operations Management": "Operatsion boshqaruv",
       "Performance Evaluation": "Samaradorlikni baholash",
       "Business Transformation": "Biznes transformatsiyasi",
-      "Lean Production": "Lean production",
+      "Lean Production": "Tejamkor ishlab chiqarish",
       "Process Automation": "Jarayonlarni avtomatlashtirish",
       "Crisis Management": "Inqiroz boshqaruvi",
       "Contracts Management": "Shartnomalarni boshqarish",
       "Sales & Marketing": "Sotuv va marketing",
       Startups: "Startaplar",
       "SWOT Analysis": "SWOT tahlil",
-      "HR Business Partnering": "HR Business Partnering",
+      "HR Business Partnering": "HR biznes hamkorligi",
       "Recruiting ATS Implementation": "Recruiting ATS joriy etish",
       "HR Analytics": "HR analitika",
       "Corporate Culture": "Korporativ madaniyat",
@@ -269,7 +272,7 @@ const translations = {
         "Xalqaro ta'minotchilar bilan hamkorlikni tiklash, sifat nazoratini kuchaytirish va xarid xarajatlarini kamaytirish."
       ],
       "HR Strategy and People Operations": [
-        "HR strategiya va people operations",
+        "HR strategiya va xodimlar boshqaruvi",
         "Jamoa boshqaruvi, HR strategiya, o'qitish, muzokaralar va biznes maqsadlari bilan bog'langan HR yo'nalishini qurish."
       ],
       "HR Business Partner Model": [
@@ -286,17 +289,13 @@ const translations = {
       ]
     },
     experience: {
-      "Human Resource Director|ADM GLOBAL": [
-        "HR direktori",
-        "Sotuv va operatsion rahbarlar uchun HR Business Partner sifatida ishlaydi, biznes ehtiyojlarini HR yechimlariga aylantiradi. Jamoani o'qitish, recruiting ATS joriy etish, xodimlar, mijozlar va bozorlar bo'yicha HR analitika, korporativ madaniyat va kommunikatsiyalar, kadrlar administratsiyasini avtomatlashtirish, L&D, attestatsiya, individual rivojlanish rejalari va adaptatsiya tizimini boshqaradi."
-      ],
-      "Human Resources Director|ADM GLOBAL": [
-        "HR direktori",
-        "HR yo'nalishi va people jarayonlarini boshqargan: HRD, kommunikatsiya, rekruting, xodimlar bilan munosabatlar va operatsion moslashuv."
+      "Human Resources Director / HR Business Partner|ADM GLOBAL": [
+        "HR direktori / HR Business Partner",
+        "ADM GLOBAL dagi yagona rol: sotuv va operatsion rahbarlar uchun HR Business Partner sifatida ishlaydi, biznes ehtiyojlarini HR yechimlariga aylantiradi. Jamoani o'qitish, asosiy lokatsiyani yopish jarayoni, recruiting ATS joriy etish, xodimlar, mijozlar va bozorlar bo'yicha HR analitika, korporativ madaniyat va kommunikatsiyalar, etika kodeksi, ichki mehnat qoidalari, ichki tadbirlar, kadrlar administratsiyasi, administrativ jarayonlarni avtomatlashtirish, L&D yo'nalishini yaratish, ichki/tashqi o'qitish, attestatsiya, individual rivojlanish rejalari va adaptatsiya tizimini boshqaradi."
       ],
       "Human Resource Director|Symbionty Kutushova": [
         "HR direktori",
-        "Masofaviy full-time formatda HR liderlik, jamoa koordinatsiyasi va HR strategiya uchun javobgar bo'lgan."
+        "Masofaviy to'liq bandlik formatida HR liderlik, jamoa koordinatsiyasi va HR strategiya uchun javobgar bo'lgan."
       ],
       "Director Human Resources Division|An Company Working in Retail Project": [
         "HR divizion rahbari",
@@ -322,6 +321,10 @@ const translations = {
         "Logistika va xaridlar rahbari",
         "Avtokomponentlar bo'yicha xarid va logistika jarayonlarini boshqargan. Xarid xarajatlarini 20% kamaytirgan, ishlab chiqarish quvvatini 20% oshirgan, ombor va logistika boshqaruvini yaxshilagan, ikki departamentda ISO 9000:2001 joriy etgan."
       ]
+    },
+    companies: {
+      "An Company Working in Retail Project": "Retail loyiha",
+      "Insulation, Heat Protection, Energy Saving Company": "Issiqlik izolyatsiyasi va energiya tejamkorligi kompaniyasi"
     },
     education: {
       "Bachelor's Degree, English and German Teaching": "Bakalavr darajasi, ingliz va nemis tillarini o'qitish",
@@ -384,6 +387,7 @@ function contactIcon(key) {
 }
 
 function localizeResume(raw) {
+  raw = normalizeResume(raw);
   if (state.lang === "en") return raw;
   const dict = translations[state.lang];
 
@@ -402,12 +406,13 @@ function localizeResume(raw) {
     experience: (raw.experience || []).map((item) => {
       const translated = dict.experience?.[`${item.role}|${item.company}`];
       return translated
-        ? { ...item, role: translated[0], description: translated[1] }
-        : item;
+        ? { ...item, company: dict.companies?.[item.company] || item.company, role: translated[0], period: localizePeriod(item.period), description: translated[1] }
+        : { ...item, company: dict.companies?.[item.company] || item.company, period: localizePeriod(item.period) };
     }),
     education: (raw.education || []).map((item) => ({
       ...item,
-      degree: dict.education?.[item.degree] || item.degree
+      degree: dict.education?.[item.degree] || item.degree,
+      period: localizePeriod(item.period)
     })),
     languages: (raw.languages || []).map((language) => {
       const translated = dict.languages[language.name];
@@ -416,6 +421,39 @@ function localizeResume(raw) {
         : language;
     })
   };
+}
+
+function localizePeriod(period = "") {
+  if (state.lang === "en") return period;
+  const months = state.lang === "ru"
+    ? { Jan: "янв.", Feb: "февр.", Mar: "март", Apr: "апр.", May: "май", Jun: "июнь", Jul: "июль", Aug: "авг.", Sep: "сент.", Oct: "окт.", Nov: "нояб.", Dec: "дек." }
+    : { Jan: "yan.", Feb: "fev.", Mar: "mart", Apr: "apr.", May: "may", Jun: "iyun", Jul: "iyul", Aug: "avg.", Sep: "sent.", Oct: "okt.", Nov: "noy.", Dec: "dek." };
+  let value = period;
+  Object.entries(months).forEach(([en, translated]) => {
+    value = value.replace(new RegExp(`\\b${en}\\b`, "g"), translated);
+  });
+  return state.lang === "ru"
+    ? value.replace(/\bPresent\b/g, "наст. время")
+    : value.replace(/\bPresent\b/g, "hozirgacha");
+}
+
+function normalizeResume(raw) {
+  const experience = [];
+
+  (raw.experience || []).forEach((item) => {
+    const previous = experience.find((entry) => entry.company === item.company && entry.company === "ADM GLOBAL");
+    if (!previous) {
+      experience.push({ ...item });
+      return;
+    }
+
+    previous.role = "Human Resources Director / HR Business Partner";
+    previous.period = "Jan 2024 - Present";
+    previous.description =
+      "One consolidated ADM GLOBAL role focused on HR business partnership for sales and operational leaders. Scope includes team training, key location closure support, recruiting ATS implementation, HR analytics across personnel, clients and markets, corporate culture and communications, ethics code, internal labor regulations, employee events, HR administration, automation of administrative processes, learning and development, internal and external training, attestation, individual development plans and adaptation systems.";
+  });
+
+  return { ...raw, experience };
 }
 
 function renderCards(items, mapper, variant = "") {
@@ -488,6 +526,8 @@ function renderChrome() {
   setText("#eyebrow", copy.eyebrow);
   setText("#profileLabel", copy.profile);
   setText("#locationLabel", copy.location);
+  setText("#positioning", copy.positioning);
+  setText("#footerContactLabel", copy.contact);
   setText("#emailLink", copy.contact);
 
   document.querySelectorAll(".signal").forEach((item, index) => {
