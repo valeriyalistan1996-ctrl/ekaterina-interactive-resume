@@ -36,7 +36,7 @@ const i18n = {
     statusDemo: "",
     statusMissing: "",
     statusError: "",
-    coreSignals: ["HRBP model", "Recruiting ATS", "HR analytics", "L&D ecosystem"],
+    coreSignals: ["HRBP model", "Recruiting ATS", "HR analytics", "HR admin automation"],
     tabs: {
       skills: "Skills",
       experience: "Experience",
@@ -67,7 +67,7 @@ const i18n = {
     statusDemo: "",
     statusMissing: "",
     statusError: "",
-    coreSignals: ["HRBP-модель", "Рекрутинговая ATS", "HR-аналитика", "L&D-система"],
+    coreSignals: ["HRBP-модель", "Рекрутинговая ATS", "HR-аналитика", "Автоматизация кадрового администрирования"],
     tabs: {
       skills: "Навыки",
       experience: "Опыт",
@@ -98,7 +98,7 @@ const i18n = {
     statusDemo: "",
     statusMissing: "",
     statusError: "",
-    coreSignals: ["HRBP modeli", "Rekruting ATS", "HR analitika", "L&D tizimi"],
+    coreSignals: ["HRBP modeli", "Rekruting ATS", "HR analitika", "Kadrlar administratsiyasini avtomatlashtirish"],
     tabs: {
       skills: "Ko'nikmalar",
       experience: "Tajriba",
