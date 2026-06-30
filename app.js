@@ -25,16 +25,16 @@ const i18n = {
   en: {
     code: "EN",
     label: "English",
-    eyebrow: "Interactive resume",
+    eyebrow: "Resume",
     loadingName: "Loading...",
     loadingTitle: "Connecting data",
     contact: "Contact",
     profile: "Profile",
     location: "Location",
-    statusLive: "Live data from Supabase",
-    statusDemo: "Demo mode: add Supabase URL and publishable key to .env.local",
-    statusMissing: "Resume record was not found, demo is shown",
-    statusError: "Could not load Supabase, demo is shown",
+    statusLive: "",
+    statusDemo: "",
+    statusMissing: "",
+    statusError: "",
     coreSignals: ["HRBP model", "Recruiting ATS", "HR analytics", "L&D ecosystem"],
     tabs: {
       skills: "Skills",
@@ -55,16 +55,16 @@ const i18n = {
   ru: {
     code: "RU",
     label: "Русский",
-    eyebrow: "Интерактивное резюме",
+    eyebrow: "Резюме",
     loadingName: "Загрузка...",
     loadingTitle: "Подключаем данные",
     contact: "Связаться",
     profile: "Профиль",
     location: "Локация",
-    statusLive: "Данные загружены из Supabase",
-    statusDemo: "Демо-режим: добавьте Supabase URL и publishable key в .env.local",
-    statusMissing: "Запись резюме не найдена, показано демо",
-    statusError: "Не удалось загрузить Supabase, показано демо",
+    statusLive: "",
+    statusDemo: "",
+    statusMissing: "",
+    statusError: "",
     coreSignals: ["HRBP-модель", "Recruiting ATS", "HR-аналитика", "L&D-система"],
     tabs: {
       skills: "Навыки",
@@ -85,16 +85,16 @@ const i18n = {
   uz: {
     code: "UZ",
     label: "O'zbekcha",
-    eyebrow: "Interaktiv rezyume",
+    eyebrow: "Rezyume",
     loadingName: "Yuklanmoqda...",
     loadingTitle: "Ma'lumotlar ulanmoqda",
     contact: "Bog'lanish",
     profile: "Profil",
     location: "Joylashuv",
-    statusLive: "Ma'lumotlar Supabase'dan yuklandi",
-    statusDemo: "Demo rejim: .env.local fayliga Supabase URL va publishable key qo'shing",
-    statusMissing: "Rezyume yozuvi topilmadi, demo ko'rsatilmoqda",
-    statusError: "Supabase yuklanmadi, demo ko'rsatilmoqda",
+    statusLive: "",
+    statusDemo: "",
+    statusMissing: "",
+    statusError: "",
     coreSignals: ["HRBP modeli", "Recruiting ATS", "HR analitika", "L&D tizimi"],
     tabs: {
       skills: "Ko'nikmalar",
@@ -489,7 +489,6 @@ function renderChrome() {
   setText("#profileLabel", copy.profile);
   setText("#locationLabel", copy.location);
   setText("#emailLink", copy.contact);
-  setText("#status", copy[state.statusKey] || "");
 
   document.querySelectorAll(".signal").forEach((item, index) => {
     item.textContent = copy.coreSignals[index] || "";
@@ -508,7 +507,7 @@ function renderChrome() {
 function renderResume() {
   state.resume = localizeResume(state.rawResume);
   const resume = state.resume;
-  document.title = `${resume.name || "Resume"} · Interactive Resume`;
+  document.title = `${resume.name || "Resume"} · Resume`;
   setText("#name", resume.name);
   setText("#title", resume.title);
   setText("#summary", resume.summary);
